@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FoodMates</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">FOOD MATE</string>
+    <string name="des">image description</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="regis">REGISTER</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_import_friends">ImportFriends</string>
+    <string name="import_friends">WE ARE IMPORTING YOUR FRIENDS</string>
+    <string name="profile_created">YOUR PROFILE HAS BEEN SUCCESSFULLY CREATED !</string>
+    <string name="title_activity_allergies">Allergies</string>
+    <string name="title_activity_likes">Likes</string>
+    <string name="title_activity_profile_created">ProfileCreated</string>
+    <string name="accept">ACCEPT</string>
+    <string name="reject">REJECT</string>
+    <string name="title_activity_home_page2">HomePage2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_creat_event">CreatEvent</string>
+    <string name="date">DATE</string>
+    <string name="time">TIME</string>
+    <string name="area">AREA</string>
+    <string name="budget">BUDGET</string>
+    <string name="search">Search for friends</string>
+    <string name="title_activity_add_participant">AddParticipant</string>
+    <string name="done">DONE !</string>
+    <string name="title_activity_restaurant">Restaurant</string>
+    <string name="title_activity_restaurant1">Restaurant1</string>
+    <string name="title_activity_restaurant2">Restaurant2</string>
+    <string name="restaurant_list">RESTAURANT LIST</string>
+    <string name="restaurant_bugis">RESTAURANTS IN BUGIS</string>
+    <string name="restaurant_orchard">RESTAURANTS IN ORCHARD</string>
+
+</resources>

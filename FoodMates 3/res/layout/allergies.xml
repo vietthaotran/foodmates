@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Allergies" >
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+    android:layout_above="@+id/done"
+    android:layout_marginBottom="5dp">
+
+	<ListView 
+	    android:id="@+id/allergiesList"
+	    android:isScrollContainer="true"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginRight="8dp"
+	    android:layout_marginTop="60dp"
+	    ></ListView>
+</LinearLayout>
+    <Button
+    android:id="@+id/done"
+    android:contentDescription="@string/des"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="5dp"
+    android:layout_alignParentBottom="true"
+    android:background="#ffffff"
+    android:scaleType="centerInside"
+    android:text="@string/done"
+    android:textColor="#33ccff"
+    android:textSize="30sp" />
+
+</RelativeLayout>

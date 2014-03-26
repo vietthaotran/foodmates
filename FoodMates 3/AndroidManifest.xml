@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foodmates"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.NoActionBar" >
+        <activity
+            android:name="com.example.foodmates.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.foodmates.HomePage"
+            android:label="@string/title_activity_home_page" >
+        </activity>
+        <activity
+            android:name="com.example.foodmates.ImportFriends"
+            android:label="@string/title_activity_import_friends" >
+        </activity>
+        <activity
+            android:name="com.example.foodmates.Allergies"
+            android:label="@string/title_activity_allergies" >
+        </activity>
+        <activity
+            android:name="com.example.foodmates.Likes"
+            android:label="@string/title_activity_likes" >
+        </activity>
+        <activity
+            android:name="com.example.foodmates.ProfileCreated"
+            android:label="@string/title_activity_profile_created" >
+        </activity>
+        <activity
+            android:name="com.example.foodmates.HomePage2"
+            android:label="@string/title_activity_home_page2" >
+        </activity>
+        <activity
+            android:name="com.example.foodmates.CreatEvent"
+            android:label="@string/title_activity_creat_event" >
+        </activity>
+        <activity
+            android:name="com.example.foodmates.AddParticipant"
+            android:label="@string/title_activity_add_participant" >
+        </activity>
+        <activity
+            android:name="com.example.foodmates.Restaurant"
+            android:label="@string/title_activity_restaurant" >
+        </activity>
+        <activity
+            android:name="com.example.foodmates.Restaurant1"
+            android:label="@string/title_activity_restaurant1" >
+        </activity>
+        <activity
+            android:name="com.example.foodmates.Restaurant2"
+            android:label="@string/title_activity_restaurant2" >
+        </activity>
+    </application>
+
+</manifest>
